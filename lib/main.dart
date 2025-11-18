@@ -31,7 +31,10 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Flutter + Firebase + Pokémon API',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.red,
+            brightness: Brightness.dark,
+          ),
           useMaterial3: true,
         ),
         home: const PokemonScreen(),
